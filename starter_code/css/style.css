@@ -1,6 +1,59 @@
-#pic {
-    max-width:300px;
-    max-height:500px;
+ body {
+    background-image: url("pic.jpg");
+  }
+  
+  h1{
+    font-family: fantasy;
+   text-align: center;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee,#A80000 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+ 
+ #go{
+ background-color: white; 
+color: black; 
+    border: 3px solid #FF3333;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ #go:hover {
+    background-color: #FF3333;
+    color: white;
+}
+
+.reset {
+ background-color: white; 
+color: black; 
+    border: 3px solid #FF9900;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ .reset :hover {
+    background-color: #FF9900;
+    color: white;
+    
+#random {
+ background-color: white; 
+color: black; 
+    border: 3px solid #FF9900;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+
+ #random :hover {
+    background-color: #FF9900;
+    color: white;
+}
+
+#mood {
+background-color: #CC6666;
+ border-width:5px;
+ border-color:CC0033;
+   border-style:double;
+   text-align:center;
 }
 
 
+
+
+ 
